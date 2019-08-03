@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <input v-model ="name"> <br>
+       
+       hello my name is {{ name }}
+
+       <ul>
+           <li v-for="food in food_items">  {{ food  }} </li>
+       </ul>
+       <button v-on:click= "greet">click meee </button>
+    </div>
+
+
+
+    
+<script src="vue.js"></script>
+</body>
+
+</html>
